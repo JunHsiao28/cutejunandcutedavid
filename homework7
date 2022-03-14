@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    int a, b, product;
+    a = 20;
+    b = 7;
+
+ 
+    // Calculating product
+    product = a + b;
+printf("product = %d", product);
+    product = a - b;
+
+printf("plus = %d", product);
+    product = a * b;
+
+printf("minus = %d", product);
+    product = a / b;
+
+printf("motofive = %d", product);
+    
+    return 0;
+}
